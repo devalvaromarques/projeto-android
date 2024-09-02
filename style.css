@@ -1,0 +1,133 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --color1: #3686F5;
+    --color2: #00B2F5;
+    --color3: #36C2F5;
+    --color4: #36F5AA;
+}
+
+body {
+    background-color: rgb(235, 221, 221);
+
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--color2),var(--color1));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+header > h1 {
+    color: white;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+header > p {
+    color: white;
+    font-size: 1.2em;
+    padding-right: 10px;
+    padding-left: 10px;
+    max-width: 500px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+nav {
+    background-color: #3686F5;
+    padding: 10px;
+}
+
+nav > a{
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    transition-duration: .5s;
+}
+
+nav > a:hover {
+    color: var(--color3);
+    background-color: var(--color2);
+
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.484);
+    border-radius: 0px 0px 10px 10px;
+}
+
+main strong {
+    color: #f53636;
+    font-weight: bold;
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+div.videos {
+    background-color: var(--color1);
+    margin: 0px -20px 30px -20px;
+    position: relative;
+    padding-bottom: 59%;
+}
+
+div.videos > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+main h1 {
+    color: #3686F5;
+    font-size: 1.8em;
+}
+
+main h2 {
+    color: #00B2F5;
+    font-size: 1.6em;
+    text-indent: 8px;
+    
+}
+
+main p {
+    margin: 15px 0px;
+    font-size: 1em;
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 2em;
+}
+
+main a {
+    text-decoration: none;
+    background-color: #36C2F5;
+    color: white;
+}
+
+footer {
+    background-color: #3686F5;
+    text-align: center;
+}
